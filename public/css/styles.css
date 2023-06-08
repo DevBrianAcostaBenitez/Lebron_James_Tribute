@@ -24,9 +24,10 @@
 }
 .banner-principal{
     background-image: url("../../src/img/banner-principal.jpg");
+    background-repeat: no-repeat;
     background-size:cover;
     width:100%;
-    height:50%
+    height:290px
 }
 
 .section-principal{
