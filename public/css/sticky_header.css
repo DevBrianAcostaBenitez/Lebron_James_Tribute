@@ -1,0 +1,5 @@
+.sticky {
+    background: #1A1A1A;
+    box-shadow: 1px 1px 3px #1A1A1A;
+    z-index: 100;
+}
