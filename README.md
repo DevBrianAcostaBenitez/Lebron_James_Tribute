@@ -39,3 +39,6 @@ Incluir la película de space jamm como tema en la web.
 
 
 
+![footer](https://github.com/DevBrianAcostaBenitez/Lebron_James_Tribute/assets/126974213/5af99be4-6370-4cb4-8637-088f0d39f3a7)
+![header](https://github.com/DevBrianAcostaBenitez/Lebron_James_Tribute/assets/126974213/3b4f5eaa-527e-4b5a-a17e-b14459594e7d)
+![main](https://github.com/DevBrianAcostaBenitez/Lebron_James_Tribute/assets/126974213/bd3414dc-5715-40e4-af8f-409789ededab)
