@@ -1,129 +1,369 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Raleway&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+.principal-header {
+  background: #000000;
+  width: 100%;
+  height: 90px;
+  position: fixed;
+  z-index: 10;
+  box-shadow: 1px 1px 2px #000000;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.principal-header{
-    background: #000000;
-    width: 100%;
-    height: 90px;
-    position: fixed;
-    z-index: 3;
-    box-shadow: 1px 1px 2px #000000;
-}
-.logo{
-    text-decoration: none;
-    display: flex;
-    justify-content: space-between;
+.logo-white:hover {
+  transform: scale(1.2);
 }
 
-.logo-white{
-    height: 50px;
-    top: 10px;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 45px;
-    margin-top: 15px;
+.logo-white {
+  height: 50px;
+  transition: 0.95s;
 }
 
-.main-index{
-    width:100%;
-    height:300%;
+.banner-principal {
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),url(/src/assets/img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
 }
-.banner-principal{
-    background-image: url("../../src/img/banner-principal.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    width:100%;
-    height:800px
+.container-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 350px;
+}
+.wrap-Akron {
+  background: url(/src/assets/img/bg-akron.jfif);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(/src/assets/img/bg-akron.jfif);
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
+}
+.wrap-text {
+  color: #ffffff;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+.heading-1 {
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+}
+.wrap-Akron:hover {
+  transform: scale(1.2);
+}
+.wrap-born-king {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
+}
+.wrap-text-1 {
+  color: #000000;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+.heading2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #000000;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+.wrap-born-king:hover {
+  transform: scale(1.2);
 }
 
-.section-principal{
-
+.container-cards-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 350px;
 }
-.akron-container{
-
+.wrap-draft {
+  background: url(/src/assets/img/lebron_draft.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(/src/assets/img/lebron_draft.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
 }
-.bg-akron{
-
+.wrap-text-2 {
+  color: #ffffff;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
 }
-.ohio{
-
+.heading-2 {
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
 }
-.bron-king-container{
-
+.wrap-draft:hover {
+  transform: scale(1.2);
 }
-.born-king{
-
+.wrap-first-cavs {
+  background: url(/src/assets/img/lebron_fisrt_cavs.jfif);
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(/src/assets/img/lebron_fisrt_cavs.jfif);
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
 }
-.draft{
-
+.wrap-text-3 {
+  color: #ffffff;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.2rem;
 }
-.lj-draf{
-
+.heading3 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
 }
-.draft-2003{
-
-}
-.first-cleveland{
-
-}
-.first-cleveland{
-
-}
-.first_cavs{
-    
-}
-.lj-first_cavs{
-
-}
-.miami-heat{
-
-}
-.lj-miami_heat{
-
-}
-.miami{
-
-}
-.first-ring{
-
-}
-.lj-nba-ring{
-
+.wrap-first-cavs:hover {
+  transform: scale(1.2);
 }
 
-.ring{
-
+.container-cards-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 350px;
 }
-.coming-home{
-
+.wrap-heat {
+  background: url(/src/assets/img/lebron_heat.webp);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(/src/assets/img/lebron_heat.webp);
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
 }
-.lj-coming-home{
-
+.wrap-text-4 {
+  color: #ffffff;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
 }
-.home{
-
+.heading-4 {
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 0.75rem;
 }
-.record-points{
-
+.wrap-heat:hover {
+  transform: scale(1.2);
 }
-.points{
-
+.wrap-ring {
+  background: url(/src/assets/img/lebron_winner.jpg);
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(/src/assets/img/lebron_winner.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
 }
-.LA-Lakers{
-
+.wrap-text-5 {
+  color: #ffffff;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.2rem;
 }
-.lj-lakers{
-
+.heading5 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.75rem;
 }
-.lakers{
-
+.wrap-ring:hover {
+  transform: scale(1.2);
 }
-.dream-team{
 
+.container-cards-4 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  width: 100%;
+  height: 450px;
+  background-image: url(/src/assets/img/comming_home.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }
-.team{
-    
+.heading-6 {
+  color: #ffffff;
+  font-family: "Poppins";
+  font-weight: 700;
+}
+.text-content {
+  background: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.comming {
+  color: #ffffff;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.2rem;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+
+.container-cards-5 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  height: 350px;
+}
+
+.wrap-points {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
+}
+.wrap-text-6 {
+  color: #000000;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+}
+.heading-7 {
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  margin-top: 0.75rem;
+}
+.wrap-points:hover {
+  transform: scale(1.2);
+}
+.wrap-la {
+  background: url(/src/assets/img/lebron_la.jpg);
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom, rgb(0 0 0 / 0.5), rgb(0 0 0 / 0.5)),
+    url(/src/assets/img/lebron_la.jpg);
+  background-size: cover;
+  background-position: center;
+  transition: 1.2s;
+}
+.wrap-text-7 {
+  color: #ffffff;
+  width: 83%;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.2rem;
+}
+.heading8 {
+  font-family: "Poppins";
+  font-weight: 700;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 0.75rem;
+}
+.wrap-la:hover {
+  transform: scale(1.2);
+}
+
+.heading-9 {
+  color: #bf0f1e;
+  font-family: "Poppins";
+  font-weight: 700;
+  text-align: center;
+}
+.container-cards-6 {
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #000000;
+}
+.dream-team {
+  color: #000000;
+  text-align: left;
+  font-family: "Raleway";
+  font-weight: 400;
+  line-height: 1.2rem;
+  font-family: "Raleway";
+  font-weight: 400;
+  margin-left: 35px;
+}
+
+.footer-container {
+  background: #1a1a1a;
+  width: 100%;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.copyright {
+  color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 700;
 }
